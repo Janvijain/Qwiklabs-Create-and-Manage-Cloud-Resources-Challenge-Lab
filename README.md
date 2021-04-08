@@ -11,8 +11,11 @@ Boot disk->Debian Linux
 Open Cloud Shell
 
 -> gcloud auth list
+
 -> gcloud config list project
+
 -> gcloud config set compute/zone us-east1-b
+
 -> gcloud container clusters create nucleus-jumphost-webserver1
 -> gcloud container clusters get-credentials nuleus-jumphost-webserver1
 -> kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:2.0
