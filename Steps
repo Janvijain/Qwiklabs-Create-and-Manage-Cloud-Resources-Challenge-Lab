@@ -1,9 +1,9 @@
-#Task 1
+# Task 1
 Navigation menu->Compute Engine->VM instances->create->Name=nucleus-jumphost 
 Machine configuration->series->N1->machine type->f1-micro
 Boot disk->Debian Linux
 
-#Task 2
+# Task 2
 Open Cloud Shell
 
 -> gcloud auth list
@@ -15,7 +15,7 @@ Open Cloud Shell
 -> kubectl expose deployment hello-app --type=LoadBalancer --port 8080
 -> kubectl get service
 
-#Task 3
+# Task 3
 Type in the Cloud Shell
 cat << EOF > startup.sh
 #! /bin/bash
