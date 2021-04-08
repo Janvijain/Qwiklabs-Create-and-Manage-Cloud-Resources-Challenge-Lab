@@ -29,13 +29,13 @@ Open Cloud Shell
 # Task 3
 Type in the Cloud Shell
 
-cat << EOF > startup.sh
-#! /bin/bash
-apt-get update
-apt-get install -y nginx
-service nginx start
-sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html
-EOF
+cat << EOF > startup.sh      
+#! /bin/bash             
+apt-get update               
+apt-get install -y nginx           
+service nginx start             
+sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html              
+EOF          
 
 Create an instance template.
 
