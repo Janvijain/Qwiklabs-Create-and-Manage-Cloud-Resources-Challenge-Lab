@@ -1,6 +1,6 @@
 # Qwiklabs-Create and Manage Cloud Resources - Challenge Lab
 Step by Step guide to solve this challenge.
-Can refer my YouTube video for the same : https://youtu.be/VKyxcFlpZ3s
+Can refer my YouTube video for the same : https://youtu.be/woX9Z9Uyf7o
 
 # Task 1
 Navigation menu->Compute Engine->VM instances->create->Name=nucleus-jumphost 
