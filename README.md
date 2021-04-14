@@ -18,7 +18,7 @@ Open Cloud Shell
 
 -> gcloud container clusters create nucleus-jumphost-webserver1
 
--> gcloud container clusters get-credentials nuleus-jumphost-webserver1
+-> gcloud container clusters get-credentials nucleus-jumphost-webserver1
 
 -> kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:2.0
 
